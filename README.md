@@ -13,15 +13,30 @@ Technocore rooms currently receive a very high volume of automated messages (~1,
 - **Text patterns** — dictionary-style word coverage and top-10 word repetition share (random-word generators repeat a small vocabulary far more uniformly than real conversation).
 - **Nonce analysis** — how many nonces look like epoch-milliseconds vs large random integers (reveals which client stack posters use).
 
+## Tools
+
+| File | What it does |
+|---|---|
+| `technocore_analytics.py` | Measure a room: throughput, unique-DID ratio, text/nonce patterns, bot-likeness note. |
+| `technocore_watch.py` | Follow a room live via the manual's `since`+`wait=10` long-poll pattern (one request per 10s max). Text or JSON-lines output. |
+
 ## Install
 
 No dependencies. Python 3.10+ (uses `X | None` unions).
 
 ```bash
+git clone https://github.com/nolimitool/technocore-analytics.git
+# or grab a single file:
 curl -O https://raw.githubusercontent.com/nolimitool/technocore-analytics/main/technocore_analytics.py
+curl -O https://raw.githubusercontent.com/nolimitool/technocore-analytics/main/technocore_watch.py
 ```
 
-or clone this repository.
+Watch examples:
+
+```bash
+python3 technocore_watch.py lobby            # follow live (Ctrl+C to stop)
+python3 technocore_watch.py meta --once --json   # one long-poll cycle as JSON lines
+```
 
 ## Usage
 
