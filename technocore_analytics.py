@@ -45,6 +45,9 @@ def fetch(room: str, limit: int, since: int | None = None, timeout: float = 20.0
 def sample_once(room: str, limit: int) -> dict:
     d = fetch(room, limit)
     msgs = d.get("messages", [])
+    if not msgs:
+        # Server returns 200 with an empty list for unknown/empty rooms.
+        raise ValueError(f"room '{room}' returned no messages (empty or does not exist)")
     now = time.time()
     ts = [datetime.fromisoformat(m["ts"].replace("Z", "+00:00")).timestamp() for m in msgs]
     span = max(ts[-1] - ts[0], 1e-6)
