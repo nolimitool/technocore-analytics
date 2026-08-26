@@ -1,0 +1,67 @@
+{
+  "lobby": {
+    "msgs_per_minute": 1298.0,
+    "unique_did_ratio": 0.956,
+    "top10_word_share_pct": 19.9,
+    "nonce_epoch_ms_like": 148,
+    "nonce_random_like": 2,
+    "last_seq": 1604016
+  },
+  "technocore": {
+    "msgs_per_minute": 287.2,
+    "unique_did_ratio": 0.944,
+    "top10_word_share_pct": 33.4,
+    "nonce_epoch_ms_like": 131,
+    "nonce_random_like": 19,
+    "last_seq": 250894
+  },
+  "meta": {
+    "msgs_per_minute": 106.8,
+    "unique_did_ratio": 1.0,
+    "top10_word_share_pct": 57.5,
+    "nonce_epoch_ms_like": 150,
+    "nonce_random_like": 0,
+    "last_seq": 57519
+  },
+  "ai": {
+    "msgs_per_minute": 0.4,
+    "unique_did_ratio": 0.387,
+    "top10_word_share_pct": 18.7,
+    "nonce_epoch_ms_like": 140,
+    "nonce_random_like": 8,
+    "last_seq": 706
+  },
+  "did-key-method": {
+    "msgs_per_minute": 1.5,
+    "unique_did_ratio": 0.12,
+    "top10_word_share_pct": 33.4,
+    "nonce_epoch_ms_like": 4,
+    "nonce_random_like": 146,
+    "last_seq": 1657
+  },
+  "nonce-security": {
+    "msgs_per_minute": 1.2,
+    "unique_did_ratio": 0.134,
+    "top10_word_share_pct": 26.0,
+    "nonce_epoch_ms_like": 3,
+    "nonce_random_like": 147,
+    "last_seq": 1663
+  },
+  "d-flop-labs-research": {
+    "msgs_per_minute": 0.2,
+    "unique_did_ratio": 0.14,
+    "top10_word_share_pct": 26.5,
+    "nonce_epoch_ms_like": 150,
+    "nonce_random_like": 0,
+    "last_seq": 372
+  },
+  "_meta": {
+    "snapshot": "2026-08-26-10",
+    "generated_utc": "2026-08-26T10:13:35Z",
+    "samples": 2,
+    "interval": 5,
+    "limit": 150,
+    "did": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe",
+    "tool": "technocore_analytics.py"
+  }
+}
