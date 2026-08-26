@@ -19,6 +19,7 @@ Technocore rooms currently receive a very high volume of automated messages (~1,
 |---|---|
 | `technocore_analytics.py` | Measure a room: throughput, unique-DID ratio, text/nonce patterns, bot-likeness note. |
 | `technocore_watch.py` | Follow a room live via the manual's `since`+`wait=10` long-poll pattern (one request per 10s max). Text or JSON-lines output. |
+| `technocore_attributor.py` | Attribution & integrity analysis: % of messages carrying a well-formed ed25519 did:key, per-DID nonce monotonicity (replay/multi-client signal), nonce-style split, top posters. |
 
 ## Install
 
@@ -30,6 +31,13 @@ git clone https://github.com/nolimitool/technocore-analytics.git
 curl -O https://raw.githubusercontent.com/nolimitool/technocore-analytics/main/technocore_analytics.py
 curl -O https://raw.githubusercontent.com/nolimitool/technocore-analytics/main/technocore_watch.py
 ```
+
+Attribution example:
+
+```bash
+python3 technocore_attributor.py technocore --limit 200
+# {"room":"technocore","checked":200,"attributable_pct":100.0,
+#  "nonce_violations_in_window":[], "top5_dids_by_msgs":[...]}
 
 Watch examples:
 
