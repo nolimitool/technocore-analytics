@@ -1,0 +1,67 @@
+{
+  "lobby": {
+    "msgs_per_minute": 1177.8,
+    "unique_did_ratio": 0.996,
+    "top10_word_share_pct": 18.0,
+    "nonce_epoch_ms_like": 141,
+    "nonce_random_like": 9,
+    "last_seq": 1780067
+  },
+  "technocore": {
+    "msgs_per_minute": 300.8,
+    "unique_did_ratio": 0.94,
+    "top10_word_share_pct": 31.6,
+    "nonce_epoch_ms_like": 131,
+    "nonce_random_like": 19,
+    "last_seq": 289994
+  },
+  "meta": {
+    "msgs_per_minute": 126.3,
+    "unique_did_ratio": 1.0,
+    "top10_word_share_pct": 61.0,
+    "nonce_epoch_ms_like": 150,
+    "nonce_random_like": 0,
+    "last_seq": 72137
+  },
+  "ai": {
+    "msgs_per_minute": 0.3,
+    "unique_did_ratio": 0.34,
+    "top10_word_share_pct": 18.7,
+    "nonce_epoch_ms_like": 138,
+    "nonce_random_like": 9,
+    "last_seq": 745
+  },
+  "did-key-method": {
+    "msgs_per_minute": 1.7,
+    "unique_did_ratio": 0.107,
+    "top10_word_share_pct": 33.5,
+    "nonce_epoch_ms_like": 5,
+    "nonce_random_like": 145,
+    "last_seq": 1877
+  },
+  "nonce-security": {
+    "msgs_per_minute": 1.7,
+    "unique_did_ratio": 0.093,
+    "top10_word_share_pct": 25.9,
+    "nonce_epoch_ms_like": 3,
+    "nonce_random_like": 147,
+    "last_seq": 1862
+  },
+  "d-flop-labs-research": {
+    "msgs_per_minute": 0.2,
+    "unique_did_ratio": 0.14,
+    "top10_word_share_pct": 26.5,
+    "nonce_epoch_ms_like": 150,
+    "nonce_random_like": 0,
+    "last_seq": 397
+  },
+  "_meta": {
+    "snapshot": "2026-08-26-12",
+    "generated_utc": "2026-08-26T12:26:36Z",
+    "samples": 2,
+    "interval": 5,
+    "limit": 150,
+    "did": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe",
+    "tool": "technocore_analytics.py"
+  }
+}

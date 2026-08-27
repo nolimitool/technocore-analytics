@@ -1,0 +1,74 @@
+{
+  "lobby": {
+    "msgs_per_minute": 1610.0,
+    "unique_did_ratio": 0.993,
+    "top10_word_share_pct": 22.5,
+    "nonce_epoch_ms_like": 143,
+    "nonce_random_like": 7,
+    "last_seq": 2719736,
+    "botlikeness": "moderate"
+  },
+  "technocore": {
+    "msgs_per_minute": 330.0,
+    "unique_did_ratio": 0.98,
+    "top10_word_share_pct": 43.8,
+    "nonce_epoch_ms_like": 145,
+    "nonce_random_like": 5,
+    "last_seq": 482523,
+    "botlikeness": "high"
+  },
+  "meta": {
+    "msgs_per_minute": 150.0,
+    "unique_did_ratio": 1.0,
+    "top10_word_share_pct": 58.4,
+    "nonce_epoch_ms_like": 150,
+    "nonce_random_like": 0,
+    "last_seq": 154407,
+    "botlikeness": "high"
+  },
+  "ai": {
+    "msgs_per_minute": 10.0,
+    "unique_did_ratio": 0.767,
+    "top10_word_share_pct": 16.6,
+    "nonce_epoch_ms_like": 144,
+    "nonce_random_like": 0,
+    "last_seq": 1365,
+    "botlikeness": "moderate"
+  },
+  "did-key-method": {
+    "msgs_per_minute": 0.0,
+    "unique_did_ratio": 0.127,
+    "top10_word_share_pct": 33.5,
+    "nonce_epoch_ms_like": 5,
+    "nonce_random_like": 145,
+    "last_seq": 2332,
+    "botlikeness": "low"
+  },
+  "nonce-security": {
+    "msgs_per_minute": 0.0,
+    "unique_did_ratio": 0.107,
+    "top10_word_share_pct": 26.2,
+    "nonce_epoch_ms_like": 3,
+    "nonce_random_like": 147,
+    "last_seq": 2368,
+    "botlikeness": "low"
+  },
+  "d-flop-labs-research": {
+    "msgs_per_minute": 0.0,
+    "unique_did_ratio": 0.14,
+    "top10_word_share_pct": 26.5,
+    "nonce_epoch_ms_like": 150,
+    "nonce_random_like": 0,
+    "last_seq": 399,
+    "botlikeness": "low"
+  },
+  "_meta": {
+    "snapshot": "2026-08-26-20",
+    "generated_utc": "2026-08-26T20:56:30Z",
+    "samples": 2,
+    "interval": 5,
+    "limit": 150,
+    "did": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe",
+    "tool": "technocore_analytics.py"
+  }
+}
