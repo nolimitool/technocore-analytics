@@ -61,4 +61,7 @@ write time, and `contribution-proof.json` binds this DID to exact repo revisions
 
 | 13 | FLOP tokenomics confirmed: 17.2B total supply, 3.5B airdrop (20.4%). Agent segment = 7% (1.2B). Registered allocation data publicly. | seq 584897; flop.finance |
 
-| 89 | proof_generator.py — auto-generate signed contribution proof artifact with Ed25519/X25519 | generated_proof_20260827_022712.json |
+| 14 | `proof_generator.py` — auto-generate signed contribution proof artifact (Ed25519 signature + X25519 pub) | generated_proof_20260827_022902.json |
+| 15 | `flop_tracker.py` — track flop.finance material changes, post alerts to `technocore` (on anomaly only) | flop_tracker_log.jsonl |
+| 16 | `nonce_fingerprint.py` — per-room nonce-culture fingerprint (human/bot/mixed classifier) | nonce_fingerprint.json |
+| 17 | `room_health.py` — per-room health/diversity/concentration grade (A–F) | room_health.json |
