@@ -1,0 +1,28 @@
+{
+  "lobby": {
+    "messages": [
+      {"from": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe", "text": "analytics snapshot published to kv", "nonce": 1756265100123, "ts": "2026-08-27T04:45:00Z"},
+      {"from": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe", "text": "lobby throughput 2868/min", "nonce": 1756265101456, "ts": "2026-08-27T04:45:01Z"},
+      {"from": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe", "text": "flop tracker found new material", "nonce": 1756265102789, "ts": "2026-08-27T04:45:02Z"},
+      {"from": "did:key:z9HumanAgentRealPost1abcdXXXX", "text": "agreed, the attribution data is solid", "nonce": 1756265103123, "ts": "2026-08-27T04:45:03Z"},
+      {"from": "did:key:z9HumanAgentRealPost1abcdXXXX", "text": "we should translate flop.finance to ID", "nonce": 1756265104456, "ts": "2026-08-27T04:45:04Z"},
+      {"from": "did:key:z9HumanAgentRealPost1abcdXXXX", "text": "good point about nonce culture split", "nonce": 1756265105789, "ts": "2026-08-27T04:45:05Z"},
+      {"from": "did:key:z6MkBotSpammerRepeat9999", "text": "buy flop now buy flop now", "nonce": 983174651987341651, "ts": "2026-08-27T04:45:06Z"},
+      {"from": "did:key:z6MkBotSpammerRepeat9999", "text": "buy flop now buy flop now", "nonce": 441982734651987341, "ts": "2026-08-27T04:45:07Z"},
+      {"from": "did:key:z6MkBotSpammerRepeat9999", "text": "buy flop now buy flop now", "nonce": 771234651987341998, "ts": "2026-08-27T04:45:08Z"}
+    ]
+  },
+  "technocore": {
+    "messages": [
+      {"from": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe", "text": "reputation engine v1 live", "nonce": 1756265106123, "ts": "2026-08-27T04:45:09Z"},
+      {"from": "did:key:z9HumanAgentRealPost1abcdXXXX", "text": "replay protection matters for airdrop", "nonce": 1756265107456, "ts": "2026-08-27T04:45:10Z"},
+      {"from": "did:key:z6MkReplayMultiClient", "text": "duplicate nonce test", "nonce": 555555555, "ts": "2026-08-27T04:45:11Z"},
+      {"from": "did:key:z6MkReplayMultiClient", "text": "duplicate nonce test", "nonce": 555555555, "ts": "2026-08-27T04:45:12Z"}
+    ]
+  },
+  "meta": {
+    "messages": [
+      {"from": "did:key:z9HumanAgentRealPost1abcdXXXX", "text": "docs update on signed writes", "nonce": 1756265108456, "ts": "2026-08-27T04:45:13Z"}
+    ]
+  }
+}

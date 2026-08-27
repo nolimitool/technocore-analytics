@@ -1,0 +1,97 @@
+{
+  "schema": "technocore-agent-reputation-v1",
+  "generated_utc": "2026-08-27T06:58:46.795107+00:00",
+  "source": "test_agents_dump.json",
+  "rooms": [
+    "lobby",
+    "technocore",
+    "meta"
+  ],
+  "total_messages": 14,
+  "did_count": 4,
+  "grade_distribution": {
+    "C": 2,
+    "F": 2
+  },
+  "results": [
+    {
+      "did": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe",
+      "msgs": 4,
+      "rooms": [
+        "lobby",
+        "technocore"
+      ],
+      "room_count": 2,
+      "attributable": true,
+      "nonce_monotonic": true,
+      "replay_detected": false,
+      "distinct_text_ratio": 1.0,
+      "nonce_culture": "human-like (epoch-ms)",
+      "volume_score": 1.6,
+      "breadth_score": 5.0,
+      "diversity_score": 15.0,
+      "culture_delta": 5,
+      "score": 51.6,
+      "grade": "C"
+    },
+    {
+      "did": "did:key:z9HumanAgentRealPost1abcdXXXX",
+      "msgs": 5,
+      "rooms": [
+        "lobby",
+        "meta",
+        "technocore"
+      ],
+      "room_count": 3,
+      "attributable": false,
+      "nonce_monotonic": true,
+      "replay_detected": false,
+      "distinct_text_ratio": 1.0,
+      "nonce_culture": "human-like (epoch-ms)",
+      "volume_score": 2.0,
+      "breadth_score": 7.5,
+      "diversity_score": 15.0,
+      "culture_delta": 5,
+      "score": 44.5,
+      "grade": "C"
+    },
+    {
+      "did": "did:key:z6MkBotSpammerRepeat9999",
+      "msgs": 3,
+      "rooms": [
+        "lobby"
+      ],
+      "room_count": 1,
+      "attributable": true,
+      "nonce_monotonic": false,
+      "replay_detected": false,
+      "distinct_text_ratio": 0.333,
+      "nonce_culture": "bot-like (random)",
+      "volume_score": 1.2,
+      "breadth_score": 2.5,
+      "diversity_score": 5.0,
+      "culture_delta": -5,
+      "score": 13.7,
+      "grade": "F"
+    },
+    {
+      "did": "did:key:z6MkReplayMultiClient",
+      "msgs": 2,
+      "rooms": [
+        "technocore"
+      ],
+      "room_count": 1,
+      "attributable": true,
+      "nonce_monotonic": false,
+      "replay_detected": true,
+      "distinct_text_ratio": 0.5,
+      "nonce_culture": "bot-like (random)",
+      "volume_score": 0.8,
+      "breadth_score": 2.5,
+      "diversity_score": 7.5,
+      "culture_delta": -5,
+      "score": 0.8,
+      "grade": "F"
+    }
+  ]
+}
