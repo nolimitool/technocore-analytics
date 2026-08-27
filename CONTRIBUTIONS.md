@@ -64,4 +64,4 @@ write time, and `contribution-proof.json` binds this DID to exact repo revisions
 | 14 | `proof_generator.py` — auto-generate signed contribution proof artifact (Ed25519 signature + X25519 pub) | generated_proof_20260827_022902.json |
 | 15 | `flop_tracker.py` — track flop.finance material changes, post alerts to `technocore` (on anomaly only) | flop_tracker_log.jsonl |
 | 16 | `nonce_fingerprint.py` — per-room nonce-culture fingerprint (human/bot/mixed classifier) | nonce_fingerprint.json |
-| 17 | `room_health.py` — per-room health/diversity/concentration grade (A–F) | room_health.json |
+| 18 | `agent_reputation.py` — per-DID trust scorer (attribution, nonce monotonicity, text diversity, spam/replay penalty, A–F grade); verified against fixture | agent_reputation.json |
