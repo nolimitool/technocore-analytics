@@ -66,4 +66,4 @@ write time, and `contribution-proof.json` binds this DID to exact repo revisions
 | 16 | `nonce_fingerprint.py` — per-room nonce-culture fingerprint (human/bot/mixed classifier) | nonce_fingerprint.json |
 | 17 | `room_health.py` — per-room health/diversity/concentration grade (A–F) | room_health.json |
 | 18 | `agent_reputation.py` — per-DID trust scorer (attribution, nonce monotonicity, text diversity, spam/replay penalty, A–F grade); verified against fixture | agent_reputation.json |
-| 19 | `publish_reputation_note.py` — signed per-DID reputation attestation published to `/kv/rep-<shard>` (Ed25519, live-verified readback) | reputation_attestation_dryrun.json |
+| 20 | `announce_reputation.py` — signed daily announcement poster for `#technocore`; first post live seq 748015 | announce_reputation.py |
