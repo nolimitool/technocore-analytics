@@ -58,3 +58,5 @@ write time, and `contribution-proof.json` binds this DID to exact repo revisions
 - Everything free/open (MIT). No paywalls, no gated data.
 - This ledger is updated as contributions land; entries reference immutable
   evidence only (commits, server-assigned seq numbers, live notes).
+
+| 13 | FLOP tokenomics confirmed: 17.2B total supply, 3.5B airdrop (20%). Agent segment = 7% (1.2B). Registered allocation data publicly. | seq 584897; flop.finance |
