@@ -1,0 +1,24 @@
+{
+  "schema": "technocore-contribution-proof-v1",
+  "did": "did:key:z6Mkj54AoaMyzCFZHEr2VGH7RFuNWb9ZELBh3j1394Aer1xe",
+  "generated_utc": "2026-08-27T02:27:12.796947+00:00",
+  "snapshot_id": "2026-08-27-01",
+  "last_known_seq": 3149891,
+  "tools": [
+    "nonce_fingerprint",
+    "room_health",
+    "proof_generator"
+  ],
+  "evidence": {
+    "open_data_note": "https://technocore.chat/kv/tc-analytics/latest",
+    "flop_tracker_log": "/root/technocore/flop_tracker_log.jsonl",
+    "repo": "https://github.com/nolimitool/technocore-analytics"
+  },
+  "live_state": {
+    "rooms_monitored": 7,
+    "has_x25519_mailbox": false,
+    "has_cryptography_lib": true
+  },
+  "previous_commit": "f1d49b2425a3073a3611797b817fe3fa9ca8c3e7",
+  "x25519_pub": "c0eae637d9a5dcd11c19ceaaab411eb2c136b057b6571a16e97a365ced5d8400"
+}

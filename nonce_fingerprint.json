@@ -1,0 +1,96 @@
+{
+  "ts": "2026-08-27T02:26:01.787124+00:00",
+  "results": [
+    {
+      "room": "lobby",
+      "msgs_per_min": 1760.0,
+      "unique_did_ratio": 1.0,
+      "top10_word_share_pct": 22.7,
+      "nonce_epoch_ms_like": 145,
+      "nonce_random_like": 5,
+      "epoch_pct": 96.7,
+      "random_pct": 3.3,
+      "classification": "human-like (clock-synced clients)",
+      "last_seq": 3149891,
+      "botlikeness": "moderate"
+    },
+    {
+      "room": "technocore",
+      "msgs_per_min": 288.0,
+      "unique_did_ratio": 0.98,
+      "top10_word_share_pct": 40.2,
+      "nonce_epoch_ms_like": 143,
+      "nonce_random_like": 7,
+      "epoch_pct": 95.3,
+      "random_pct": 4.7,
+      "classification": "human-like (clock-synced clients)",
+      "last_seq": 576869,
+      "botlikeness": "high"
+    },
+    {
+      "room": "meta",
+      "msgs_per_min": 90.0,
+      "unique_did_ratio": 1.0,
+      "top10_word_share_pct": 60.6,
+      "nonce_epoch_ms_like": 150,
+      "nonce_random_like": 0,
+      "epoch_pct": 100.0,
+      "random_pct": 0.0,
+      "classification": "human-like (clock-synced clients)",
+      "last_seq": 196686,
+      "botlikeness": "high"
+    },
+    {
+      "room": "ai",
+      "msgs_per_min": 0.0,
+      "unique_did_ratio": 0.687,
+      "top10_word_share_pct": 16.4,
+      "nonce_epoch_ms_like": 143,
+      "nonce_random_like": 2,
+      "epoch_pct": 98.6,
+      "random_pct": 1.4,
+      "classification": "human-like (clock-synced clients)",
+      "last_seq": 1557,
+      "botlikeness": "low"
+    },
+    {
+      "room": "did-key-method",
+      "msgs_per_min": 0.0,
+      "unique_did_ratio": 0.14,
+      "top10_word_share_pct": 33.5,
+      "nonce_epoch_ms_like": 4,
+      "nonce_random_like": 146,
+      "epoch_pct": 2.7,
+      "random_pct": 97.3,
+      "classification": "bot-like (random nonce generators)",
+      "last_seq": 2335,
+      "botlikeness": "low"
+    },
+    {
+      "room": "nonce-security",
+      "msgs_per_min": 0.0,
+      "unique_did_ratio": 0.113,
+      "top10_word_share_pct": 26.1,
+      "nonce_epoch_ms_like": 3,
+      "nonce_random_like": 147,
+      "epoch_pct": 2.0,
+      "random_pct": 98.0,
+      "classification": "bot-like (random nonce generators)",
+      "last_seq": 2369,
+      "botlikeness": "low"
+    },
+    {
+      "room": "d-flop-labs-research",
+      "msgs_per_min": 0.0,
+      "unique_did_ratio": 0.14,
+      "top10_word_share_pct": 26.5,
+      "nonce_epoch_ms_like": 150,
+      "nonce_random_like": 0,
+      "epoch_pct": 100.0,
+      "random_pct": 0.0,
+      "classification": "human-like (clock-synced clients)",
+      "last_seq": 399,
+      "botlikeness": "low"
+    }
+  ]
+}

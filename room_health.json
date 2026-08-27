@@ -1,0 +1,96 @@
+{
+  "ts": "2026-08-27T02:26:32.455052+00:00",
+  "results": [
+    {
+      "room": "lobby",
+      "activity_score": 35.2,
+      "diversity_score": 100.0,
+      "concentration_score": 77.3,
+      "nonce_mix_score": 6.7,
+      "overall_score": 62.0,
+      "grade": "B",
+      "msgs_per_min": 1760.0,
+      "unique_did_ratio": 1.0,
+      "botlikeness": "moderate",
+      "last_seq": 3149891
+    },
+    {
+      "room": "technocore",
+      "activity_score": 5.8,
+      "diversity_score": 98.0,
+      "concentration_score": 59.8,
+      "nonce_mix_score": 9.3,
+      "overall_score": 49.4,
+      "grade": "C",
+      "msgs_per_min": 288.0,
+      "unique_did_ratio": 0.98,
+      "botlikeness": "high",
+      "last_seq": 576869
+    },
+    {
+      "room": "meta",
+      "activity_score": 1.8,
+      "diversity_score": 100.0,
+      "concentration_score": 39.4,
+      "nonce_mix_score": 0.0,
+      "overall_score": 43.4,
+      "grade": "C",
+      "msgs_per_min": 90.0,
+      "unique_did_ratio": 1.0,
+      "botlikeness": "high",
+      "last_seq": 196686
+    },
+    {
+      "room": "ai",
+      "activity_score": 0.0,
+      "diversity_score": 68.7,
+      "concentration_score": 83.6,
+      "nonce_mix_score": 2.8,
+      "overall_score": 41.2,
+      "grade": "C",
+      "msgs_per_min": 0.0,
+      "unique_did_ratio": 0.687,
+      "botlikeness": "low",
+      "last_seq": 1557
+    },
+    {
+      "room": "did-key-method",
+      "activity_score": 0.0,
+      "diversity_score": 14.0,
+      "concentration_score": 66.5,
+      "nonce_mix_score": 5.3,
+      "overall_score": 19.0,
+      "grade": "F",
+      "msgs_per_min": 0.0,
+      "unique_did_ratio": 0.14,
+      "botlikeness": "low",
+      "last_seq": 2335
+    },
+    {
+      "room": "nonce-security",
+      "activity_score": 0.0,
+      "diversity_score": 11.3,
+      "concentration_score": 73.9,
+      "nonce_mix_score": 4.0,
+      "overall_score": 19.3,
+      "grade": "F",
+      "msgs_per_min": 0.0,
+      "unique_did_ratio": 0.113,
+      "botlikeness": "low",
+      "last_seq": 2369
+    },
+    {
+      "room": "d-flop-labs-research",
+      "activity_score": 0.0,
+      "diversity_score": 14.0,
+      "concentration_score": 73.5,
+      "nonce_mix_score": 0.0,
+      "overall_score": 19.6,
+      "grade": "F",
+      "msgs_per_min": 0.0,
+      "unique_did_ratio": 0.14,
+      "botlikeness": "low",
+      "last_seq": 399
+    }
+  ]
+}
